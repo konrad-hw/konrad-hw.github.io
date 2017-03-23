@@ -2,19 +2,25 @@
 	.wrap {
 		background: url(../image/man-2.jpg) no-repeat;
 		background-size: cover;
+		width: 70%;
+		left: 0;
+		right: 0;
+		margin: 0 15%;
 	}
-	
 	p {
 		width: 35%;
 		position: absolute;
-		top: 35%;
+		top: 15%;
 		left: auto;
-		right: 2%;
-		font-size: 1em;
+		right: 9%;
+		font-size: 0.7em;
 	}
 }
 
 @media (max-device-width: 991px) {
+	.wrap {
+		height: 420px;
+	}
 	p {
 		position: relative;
 		top: 1%;
@@ -22,4 +28,3 @@
 		text-align: center;
 	}
 }
-	
